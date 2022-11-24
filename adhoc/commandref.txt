@@ -1,0 +1,7 @@
+ansible all --list-hosts
+ansible webservers --list-hosts
+ansible dbservers --list-hosts
+ansible usaservers --list-hosts
+ansible prodservers --list-hosts
+ansible serversgroup --list-hosts
+ansible --help

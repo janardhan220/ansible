@@ -1,0 +1,17 @@
+10.0.1.23
+10.0.1.24
+
+[webservers]
+10.0.1.23
+
+[dbservers]
+10.0.1.24
+
+[prodservers]
+10.0.1.[101:103]
+
+[usaservers]
+uswebservers[1:12]
+
+[mailserver]
+mail.tcs.com
