@@ -15,3 +15,7 @@ uswebservers[1:12]
 
 [mailserver]
 mail.tcs.com
+
+[myservers]
+10.0.1.23
+10.0.1.24
