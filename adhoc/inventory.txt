@@ -1,9 +1,33 @@
-[controlnode]
 10.0.1.73
+10.0.1.74
+10.0.1.150
 
 [webservers]
+10.0.1.73
+
+[dbservers]
 10.0.1.74
 
-[allservers]
+[myservers]
 10.0.1.73
 10.0.1.74
+
+[atlanta]
+10.0.1.23
+
+[domainservers]
+www[1:3].tcs.com
+
+#[prodservers]
+#10.0.1.[101:103]
+
+#[usaservers]
+#uswebservers[1:2]
+
+#[mailserver]
+#mail.tcs.com
+
+#[serversgroup:children]
+#prodservers
+#usaservers
+#mailserver
