@@ -1,21 +1,9 @@
-10.0.1.23
-10.0.1.24
+[controlnode]
+10.0.1.73
 
 [webservers]
-10.0.1.23
+10.0.1.74
 
-[dbservers]
-10.0.1.24
-
-[prodservers]
-10.0.1.[101:103]
-
-[usaservers]
-uswebservers[1:12]
-
-[mailserver]
-mail.tcs.com
-
-[myservers]
-10.0.1.23
-10.0.1.24
+[allservers]
+10.0.1.73
+10.0.1.74
